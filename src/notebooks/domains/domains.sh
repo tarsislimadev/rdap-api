@@ -34,9 +34,9 @@ echo
 echo "resp: ${resp}"
 echo
 
-type=$( echo "${resp}" | jq '.type' )
+type=$( bash accents.sh $( echo "${resp}" | jq '.type' ) )
 
-identifier=$( echo "${resp}" | jq '.identifier' )
+identifier=$( bash accents.sh $( echo "${resp}" | jq '.identifier' ) )
 
 # outputs
 
