@@ -2,6 +2,8 @@
 
 echo "${1}" \
  | sed -e 's/ /+/ig' \
+ | sed -e 's/ / /ig' \
+ | sed -e 's/\"//ig' \
  | sed -e 's/[ãâ]/a/ig' \
  | sed -e 's/[éêë]/e/ig' \
  | sed -e 's/[í]/i/ig' \
