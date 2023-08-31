@@ -1,7 +1,7 @@
 # RDAP
 
 ```
-bash ./src/getters/domain.sh
+bash ./src/getters/domain.sh google.com.br
 ```
 
 ## License
