@@ -1,7 +1,0 @@
-// input
-
-
-
-// runner
-
-// output
