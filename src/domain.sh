@@ -10,7 +10,7 @@ domain="${1}"
 
 # runner
 
-resp=$( curl -sL "https://rdap.org/${type}/${domain}" | jq )
+resp=$( curl ./curl.sh "${type}" "${domain}" | jq )
 
 # outputs
 
