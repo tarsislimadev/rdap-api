@@ -1,12 +1,12 @@
 # RDAP
 
-## .env file
+## .env
 
 ```
 DATABASE=~/rdap
 ```
 
-## how to
+## domain
 
 ```sh
 bash ./src/getters/domain.sh google.com.br
