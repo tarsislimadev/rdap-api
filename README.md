@@ -3,7 +3,7 @@
 ## .env
 
 ```
-DATABASE=~/rdap
+DATABASE=./data
 ```
 
 ## domain
