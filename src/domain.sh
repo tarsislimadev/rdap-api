@@ -2,15 +2,11 @@
 
 # inputs
 
-. .env
-
-type="domain"
-
 domain="${1}"
 
 # runner
 
-resp=$( curl ./curl.sh "${type}" "${domain}" | jq )
+resp=$( bash ./curl.sh "domain" "${domain}" | jq )
 
 # outputs
 
