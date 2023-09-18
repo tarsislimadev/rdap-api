@@ -1,4 +1,4 @@
-# [RDAP]()
+# [RDAP](https://rdap.org)
 
 ## .env
 
@@ -9,7 +9,7 @@ DATABASE=./data
 ## domain
 
 ```sh
-bash ./src/getters/domain.sh google.com.br
+bash ./src/domain.sh google.com.br
 ```
 
 ## License
